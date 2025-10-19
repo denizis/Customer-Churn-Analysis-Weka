@@ -1,0 +1,29 @@
+=== Customer Churn Prediction (Weka - NaiveBayes) ===
+
+Algorithm: Naive Bayes
+Dataset: IBM Telco Customer Churn
+Validation: 10-Fold Cross Validation
+
+Correctly Classified Instances:  5066 (71.92%)
+Kappa statistic: 0.4084
+ROC Area: 0,819
+
+Confusion Matrix:
+    a    b   <-- classified as
+ 3551 1623 |    a = No
+ 354  1515 |    b = Yes
+
+Detailed Accuracy:
+Class 'No'  -> Precision: 0,909   Recall: 0,686  F-Measure: 0,782
+Class 'Yes' -> Precision: 0,483   Recall: 0,811  F-Measure: 0,605
+
+Weighted Average:
+Precision: 0.796  Recall: 0.719  F-Measure: 0.735  ROC Area: 0.819
+
+Summary:
+Naive Bayes achieved ~75% accuracy.
+It performed slightly worse than the J48 model but achieved a higher ROC Area (0.787),
+indicating more balanced probability estimates.
+
+
+

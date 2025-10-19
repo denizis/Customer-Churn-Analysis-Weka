@@ -1,0 +1,29 @@
+=== Customer Churn Prediction (Weka - J48) ===
+
+Algorithm: J48 (Decision Tree)
+Dataset: IBM Telco Customer Churn
+Validation: 10-Fold Cross Validation
+
+Correctly Classified Instances: 5493 (77.99%)
+Kappa statistic: 0.3988
+ROC Area: 0.758
+
+Confusion Matrix:
+    a    b   <-- classified as
+ 4578  596 |    a = No
+  954  915 |    b = Yes
+
+Detailed Accuracy:
+Class 'No'  -> Precision: 0.828  Recall: 0.885  F-Measure: 0.855
+Class 'Yes' -> Precision: 0.606  Recall: 0.490  F-Measure: 0.541
+
+Weighted Average:
+Precision: 0.769  Recall: 0.780  F-Measure: 0.772  ROC Area: 0.758
+
+Summary:
+The model achieved 78% accuracy using J48 Decision Tree.
+It performs better in predicting customers who stay (No) than those who leave (Yes).
+Future improvements may include data balancing or using ensemble methods like Random Forest.
+
+
+

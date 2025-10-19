@@ -1,0 +1,20 @@
+=== Customer Segmentation with K-Means (Weka) ===
+
+Algorithm: SimpleKMeans
+Dataset: IBM Telco Customer Churn
+Num of Clusters: 3
+
+Cluster Distribution:
+- Cluster 0: 2280 customers (32%)
+- Cluster 1: 2510 customers (36%)
+- Cluster 2: 2253 customers (32%)
+
+Cluster Characteristics:
+- Cluster 0: Long-term loyal customers (tenure > 24 months, low churn risk)
+- Cluster 1: New customers (tenure < 6 months, higher churn risk)
+- Cluster 2: High-value customers (monthly charges > 90, premium services)
+
+Insights:
+- Cluster 1 represents the most churn-prone customers.
+- Marketing strategies can target Cluster 1 for retention campaigns.
+- Cluster 2 can be targeted for upselling premium services.
